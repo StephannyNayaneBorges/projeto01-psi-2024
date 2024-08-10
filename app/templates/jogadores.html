@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static% }
+{% block title%} Jogadores {% endblock %}
+{% block content %}
+<h1 class="d-flex justify-content-center mt-3 mb-3 fw-bold text-light"> Jogadores </h1>
+     <div class="row row-cols-md-2-mx-3 d-flex justify-content-center">
+     {% for jogador in jogadores%}
+     <div class="card bg-black text-light border-danger" style="width: 18rem;">
+        <img src="{% static jogador.foto%}" class="card-img-top" alt="{{jogador.nome}}">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">{{jogador.nome}}</h5>
+            <div class="card-text">
+                 Idade: {{jogador.idade}}<br>
+                 posição: {{jogador.posição}}<br>
+                 nascimento : {{jogador.nascimento}}<br>    
+            </div>
+        </div>
+    </div>
+    </div>
+    {% endfor %}
+{% endblock %}

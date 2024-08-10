@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static% }
+{% block title%} Jogadores {% endblock %}
+{% block content %}
+<div class="row row-cols-md-2-mx-3 d-flex justify-content-center">
+  <h1 class="d-flex justify-content-center mt-3 mb-3 fw-bold text-light"> Sobre </h1>
+  <p>
+     Esse site foi criado pra fins acadêmicos, com finalidade no aperfeiçoamento na matéria de Programação de sistemas para internet (PSI) com a ajuda e orientação do professor Diego Vinícius Cirilo  do Nascimento.
+     Juntamente com o meu colega Douglas Santos apresentamos um pouco da história do América, onde é como o clube foi criado, primeiro presidente e a primeira partida do clube de futebol de Natal RN.
+     Selecionamos o elenco principal dentre eles 12 jogadores com posições diferentes e de diferentes lugares do Brasil.
+  </p>
+</div>
+<div class="row row-cols-md-2-mx-3 d-flex justify-content-center">
+  <h1 class="d-flex justify-content-center mt-3 mb-3 fw-bold text-light"> Autores</h1>
+  <img src="{% static img/stephanny.jpg %}" alt="center">
+  <p>Stephanny Nayanne</p>
+  <img src="{% static img/douglas.jpg %}" alt="center">
+  <p>Douglas Santos</p>
+</div>
+{% endblock %}

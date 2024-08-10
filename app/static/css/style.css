@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: red;
+    color:white;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+#fotoperfil{
+    width:200 ;
+    height:200 ;
+}
+img{
+    width: 180px;
+    height: 180px;   
+}
+
+header,section,footer{
+    width: 100%;
+}
+
+header{
+    background-color: white;
+}
+
+header nav{
+    display: inline-block;
+
+}
+
+header li, footer li{
+    display: inline-block;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .container{
+    text-align: left;
+}
+
+header nav{
+    text-align: right;
+    width: calc(100% - 160px);
+    line-height: 60px;
+    vertical-align: top;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#e21d1d(240, 238, 238);
+    font-family: sans-serif;
+}
+
+nav li{
+    min-width: 50px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#destaque{
+    background-color:red;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+
+.bg-dark{
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 50px;
+}
+
+span{
+    padding:5px;
+}
+
+.strong{
+    font-weight: bold;
+}
+
+#destaque img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 2px solid rgb(255, 252, 252);
+    margin-top:20px;   
+}
+
+#servicos div{
+    display: inline-block;
+    width: 32%;
+    min-width: 100px;
+    vertical-align: top;
+}
+
+#servicos{
+    padding-top: 85px;
+    padding-bottom: 20px;
+    background-color:red;
+}
+
+h2{
+    font-size: 20px;
+    color:  white;
+}
+
+p{
+    font-size: 20px;
+    color:  white;
+}
+
+#servicos img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;    
+}
+
+footer a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+}
+
+#endereco, #redessociais{
+    display: inline-block;
+    width: 49%;
+}
+
+footer article{
+    text-align: left;
+}
+
+#redessociais{
+    text-align: right;
+}
+
+#resdessociais li{
+    min-width: 80px;
+}
+    
+header a{
+    padding: 10px;
+}
+
+a.ativo{
+    background-color:#e21d1d;
+    color:white;
+}
+
+
+
+#titulo, #galeria{
+    padding-top: 30px;
+    padding-bottom: 29px;
+}
+
+#titulo{
+    background-color: #e21d1d;
+}
+
+#titulo article{
+    text-align: left;
+}
+
+
+#titulo h1{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+#galeria{
+    background-color: red;
+}
+
+#galeria div{
+    display: inline-block;
+    width: 32%;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+
+#galeria img{
+    min-width: 50px;
+    width: 40%;
+}
+
+#contato{
+    padding-top: 20px;
+    background-color: red;
+    min-height: calc(100vh - 220px);
+}
+
+#contato div{
+    display: inline-block;
+    width: 49%;
+    min-width: 100px;    
+}
+
